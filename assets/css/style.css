@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(../css/root.css);
+
+.container {
+    max-width: 1140px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.bg-color {
+    background-color: #070D37;
+}
+
+.image-2 {
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.pl-12 {
+    padding-left: 34px;
+}
+
+.bg-img {
+    background-image: url(../image/img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--bg-navy-blue);
+}
+
+.rectangle {
+    bottom: -1px;
+}
+
+.max-width {
+    max-width: 1920px;
+}
+
+.max-w-632 {
+    max-width: 632px;
+}
+
+.max-w-516 {
+    max-width: 516px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+
+.layer {
+    top: 0;
+    right: 0;
+}
+
+.layer-2 {
+    top: 0;
+    left: 0;
+}
+
+.max-w-607 {
+    max-width: 607.82px;
+}
+
+.pb-68 {
+    padding-bottom: 68px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.gap-23 {
+    gap: 23.46px;
+}
+
+.gap-53 {
+    gap: 53.16px;
+}
+
+.lh-20 {
+    line-height: 20px;
+}
+
+.lh-21 {
+    line-height: 21px;
+}
+
+.lh-23 {
+    line-height: 23.71px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-29 {
+    line-height: 29.64px;
+}
+
+.lh-118 {
+    line-height: 118.56px;
+}
+
+.rotates-40 {
+    transform: rotate(40deg);
+}
+
+.rotates-45 {
+    transform: rotate(-43deg);
+}
+
+.bg-transparent {
+    opacity: 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.mt-77 {
+    padding-top: 77px;
+}
+
+.p-btn {
+    padding: 8px 20px;
+}
+.mt-50{
+    padding-top: 50px;
+}
+.border-btn-1 {
+    border-radius: 3.48px;
+}
+
+.button-4 {
+    background: var(--color-sky);
+    transition: 400ms all linear
+}
+
+.login {
+    background: var(--color-sky);
+    transition: 400ms all linear
+}
+
+.login:hover {
+    color: #fff;
+}
+
+.button-3 {
+    padding: 13px 27px;
+    border-radius: 5.04px;
+}
+
+.button-4:hover {
+    color: #fff;
+}
+
+.sign-up {
+    background: #070D37;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid var(--color-sky);
+    transition: 300ms all linear
+}
+
+.sign-up:hover {
+    background-color: white;
+}
+
+.navbar-link:hover {
+    transform: scale(1.1);
+    transition: all 300ms linear;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px;
+}
+
+.image-3 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.navbar-link {
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-link:before {
+    content: '';
+    background: var(--color-sky);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.panel {
+    color: #ffff;
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    z-index: 10;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+    background: #39C6FD;
+    position: relative;
+}
+
+.navbar-link:hover::before {
+    width: 100%;
+}
+
+.section-3 .accordion {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.section-3 .accordion-button {
+    box-shadow: none !important;
+    padding: 52px 16px 26px 0px !important;
+}
+
+.section-3 .accordion-button::not(.collapsed) {
+    padding-bottom: 25px;
+}
+
+.section-3 .accordion-item {
+    z-index: 1;
+    border: none;
+}
+
+.section-3 .accordion-item {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent !important;
+}
+
+.section-3 .accordion-button {
+    background-color: transparent !important;
+}
+
+.section-3 .accordion-button:not(.collapsed)::after {
+    background-image: url(../image/accordion-line-img.png);
+    background-size: contain;
+    background-position: center;
+    transform: rotate(0);
+}
+
+.section-3 .accordion-button::after {
+    background-image: url(../image/arrow.png);
+    background-size: contain;
+    background-position: center;
+    transform: rotate(0);
+}
+
+.section-3 .accordion-button::after {
+
+    background-size: contain;
+    background-position: center;
+}
+
+.line {
+    border: 2px solid #39C6FD;
+}
+
+.accordion-img {
+    top: -150px !important;
+    z-index: -1;
+}
+
+.max-w-680 {
+    max-width: 680px;
+}
+
+.max-w-810 {
+    max-width: 810px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 30px !important;
+}
+
+.gap-63 {
+    gap: 63px;
+}
+.line-2{
+    border: 0.5px solid #39C6FD;
+}

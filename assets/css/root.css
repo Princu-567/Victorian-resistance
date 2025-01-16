@@ -1,0 +1,60 @@
+:root {
+    --font-family-primary: "Oswald", serif;
+    --font-family-secondary: "Open Sans", serif;
+    --text-md: 48px;
+    --text-lg: 80px;
+    --text-sm: 16px;
+    --bg-navy-blue: #070D37;
+    --color-white: white;
+    --color-sky: #39C6FD;
+    --bg-black: #01000B;
+  
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+.font-family-secondary {
+    font-family: var(--font-family-secondary);
+}
+
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+.bg-navy-blue {
+    background-color: var(--bg-navy-blue);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-sky {
+    color: var(--color-sky);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-white {
+    background-color: var(--color-white);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
