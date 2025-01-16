@@ -315,3 +315,8 @@
 .line-2{
     border: 0.5px solid #39C6FD;
 }
+
+.slick-slide{
+    height: 461px !important;
+    display: flex !important;
+}
